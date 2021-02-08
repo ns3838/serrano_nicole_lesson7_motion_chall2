@@ -4,3 +4,5 @@ while True:
     print (" Rotation of degrees in y-axis: " + input.rotation(Rotation.ROLL))
     if input.rotation(Rotation.PITCH) > 0:
         light.set_all(light.rgb(255,0,255))
+    else:
+        light.clear()

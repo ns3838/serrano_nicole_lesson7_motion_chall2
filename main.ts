@@ -4,6 +4,8 @@ while (true) {
     console.log(" Rotation of degrees in y-axis: " + input.rotation(Rotation.Roll))
     if (input.rotation(Rotation.Pitch) > 0) {
         light.setAll(light.rgb(255, 0, 255))
+    } else {
+        light.clear()
     }
     
 }
